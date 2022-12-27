@@ -1,0 +1,56 @@
+@import "variables";
+
+* {
+    font-family: $fuente-principal !important;
+}
+
+.navbar {
+    background-color: $color-primario !important;
+}
+
+.nav-item:hover {
+    background-color: $color-secundario;
+}
+
+.card {
+    background-color: $color-secundario;
+    transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38)
+}
+#sobre-mi,#preguntas-frecuentes,#contacto {
+    background-color: $color-secundario;
+    border-radius: 5px;
+}
+
+#contacto {
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn {
+    background-color: $color-primario;
+    border: 0;
+    &:hover {
+        background-color: $color-primario;
+        border: 0;
+    }
+}
+
+.bi {
+    font-size: 50px
+}
+
+.btn-primary {
+    --bs-btn-active-bg: rgb(243, 139, 4);
+}
+
+.accordion {
+    --bs-accordion-active-color: rgb(194, 167, 132);
+    --bs-accordion-active-bg: #fafafa;
+    --bs-accordion-btn-focus-border-color: rgb(194, 167, 132);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);
+}
+

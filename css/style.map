@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$color-primario: rgb(194, 167, 132);\r\n$color-secundario: rgb(219, 217, 209);\r\n\r\n* {\r\n    font-family: 'Noto Serif', serif !important;\r\n}\r\n\r\n.navbar {\r\n    background-color: $color-primario !important;\r\n}\r\n\r\n.nav-item:hover {\r\n    background-color: $color-secundario;\r\n}\r\n\r\n.card {\r\n    background-color: $color-secundario;\r\n    transition: all .5s cubic-bezier(0.72, 0.36, 0.72, 0.38)\r\n}\r\n#sobre-mi,#preguntas-frecuentes,#contacto {\r\n    background-color: $color-secundario;\r\n    border-radius: 5px;\r\n}\r\n\r\n#contacto {\r\n    padding: 10px;\r\n}\r\n\r\n.card:hover {\r\n    transform: scale(1.1);\r\n    cursor: pointer;\r\n}\r\n\r\n.btn {\r\n    background-color: $color-primario;\r\n    border: 0;\r\n    &:hover {\r\n        background-color: $color-primario;\r\n        border: 0;\r\n    }\r\n}\r\n\r\n.bi {\r\n    font-size: 50px\r\n}\r\n\r\n.btn-primary {\r\n    --bs-btn-active-bg: rgb(243, 139, 4);\r\n}\r\n\r\n.accordion {\r\n    --bs-accordion-active-color: rgb(194, 167, 132);\r\n    --bs-accordion-active-bg: #fafafa;\r\n    --bs-accordion-btn-focus-border-color: $color-primario;\r\n    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,8BAA8B;CAC9C;;;AAED,AAAA,OAAO,CAAC;EACJ,gBAAgB,EARH,OAAkB,CAQG,UAAU;CAC/C;;;AAED,AAAA,SAAS,AAAA,MAAM,CAAC;EACZ,gBAAgB,EAXD,OAAkB;CAYpC;;;AAED,AAAA,KAAK,CAAC;EACF,gBAAgB,EAfD,OAAkB;EAgBjC,UAAU,EAAE,GAAG,CAAC,IAAG,CAAC,oCAAoC;CAC3D;;;AACD,AAAA,SAAS,EAAC,qBAAqB,EAAC,SAAS,CAAC;EACtC,gBAAgB,EAnBD,OAAkB;EAoBjC,aAAa,EAAE,GAAG;CACrB;;;AAED,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;CAChB;;;AAED,AAAA,KAAK,AAAA,MAAM,CAAC;EACR,SAAS,EAAE,UAAU;EACrB,MAAM,EAAE,OAAO;CAClB;;;AAED,AAAA,IAAI,CAAC;EACD,gBAAgB,EAlCH,OAAkB;EAmC/B,MAAM,EAAE,CAAC;CAKZ;;;AAPD,AAGI,IAHA,AAGC,MAAM,CAAC;EACJ,gBAAgB,EArCP,OAAkB;EAsC3B,MAAM,EAAE,CAAC;CACZ;;;AAGL,AAAA,GAAG,CAAC;EACA,SAAS,EAAE,IACf;CAAC;;;AAED,AAAA,YAAY,CAAC;EACT,kBAAkB,CAAA,iBAAC;CACtB;;;AAED,AAAA,UAAU,CAAC;EACP,2BAA2B,CAAA,mBAAC;EAC5B,wBAAwB,CAAA,QAAC;EACzB,qCAAqC,CAAA,gBAAC;EACtC,mCAAmC,CAAA,iCAAC;CACvC"
+}
