@@ -1,23 +1,59 @@
-* { font-family: "Noto Serif", serif !important; }
+* {
+  font-family: "Noto Serif", serif !important;
+}
 
-.navbar { background-color: #c2a784 !important; }
+.navbar {
+  background-color: #c2a784 !important;
+}
 
-.nav-item:hover { background-color: #dbd9d1; }
+.nav-item:hover {
+  background-color: #dbd9d1;
+}
 
-.card { background-color: #dbd9d1; transition: all 0.5s cubic-bezier(0.72, 0.36, 0.72, 0.38); }
+.card {
+  background-color: #dbd9d1;
+  transition: all 0.5s cubic-bezier(0.72, 0.36, 0.72, 0.38);
+}
 
-#sobre-mi, #preguntas-frecuentes, #contacto { background-color: #dbd9d1; border-radius: 5px; }
+#sobre-mi, #preguntas-frecuentes, #contacto {
+  background-color: #dbd9d1;
+  border-radius: 5px;
+}
 
-#contacto { padding: 10px; }
+#contacto {
+  padding: 10px;
+}
 
-.card:hover { transform: scale(1.1); cursor: pointer; }
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
-.btn { background-color: #c2a784; border: 0; }
+.btn {
+  background-color: #c2a784;
+  border: 0;
+}
 
-.btn:hover { background-color: #c2a784; border: 0; }
+.btn:hover {
+  background-color: #c2a784;
+  border: 0;
+}
 
-.bi { font-size: 50px; }
+.bi {
+  font-size: 50px;
+}
 
-.btn-primary { --bs-btn-active-bg: rgb(243, 139, 4); }
+.btn-primary {
+  --bs-btn-active-bg: rgb(243, 139, 4);
+}
 
-.accordion { --bs-accordion-active-color: rgb(194, 167, 132); --bs-accordion-active-bg: #fafafa; --bs-accordion-btn-focus-border-color: rgb(194, 167, 132); --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(255, 255, 255); }
+.accordion {
+  --bs-accordion-active-color: rgb(194, 167, 132);
+  --bs-accordion-active-bg: #fafafa;
+  --bs-accordion-btn-focus-border-color: rgb(194, 167, 132);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);
+}
+
+footer {
+  background-color: #c2a784;
+}
